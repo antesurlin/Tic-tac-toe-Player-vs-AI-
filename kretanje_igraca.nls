@@ -1,0 +1,163 @@
+to sredina  
+  if igrac = 0 [
+  if ssredina = 0 [
+    ask turtle 0[
+    set hidden? not hidden?
+    set shape "circle"
+    set xcor 0
+    set ycor 0
+    set color blue
+  ]
+    set psredina 1
+    set ssredina 1
+    set igrac 1
+    set potez potez + 1
+    
+  ]  
+  ]
+end
+
+to gore  
+
+  if igrac = 0 [
+  if sgore = 0 [
+    ask turtle 1[
+    set hidden? not hidden?
+    set shape "circle"
+    set xcor 0
+    set ycor 1
+    set color blue
+  ]
+    set pgore 1
+    set sgore 1
+    set igrac 1
+    set potez potez + 1
+  ]  
+  ]
+end
+
+to dole  
+  if igrac = 0 [
+  if sdole = 0[
+    ask turtle 2[
+    set hidden? not hidden?
+    set shape "circle"
+    set xcor 0
+    set ycor -1
+    set color blue
+  ]
+    set pdole 1
+    set sdole 1
+    set igrac 1
+    set potez potez + 1
+  ] 
+  ] 
+end
+
+to desno  
+  if igrac = 0 [
+  if sdesno = 0 [
+    ask turtle 3[
+    set hidden? not hidden?
+    set shape "circle"
+    set xcor 1
+    set ycor 0
+    set color blue
+  ]
+    set pdesno 1
+    set sdesno 1
+    set igrac 1
+    set potez potez + 1
+  ]  
+  ]
+end
+
+to lijevo  
+  if igrac = 0 and klivo = 0[
+  if slivo = 0 [
+    ask turtle 4[
+    set hidden? not hidden?
+    set shape "circle"
+    set xcor -1
+    set ycor 0
+    set color blue
+  ]
+    set plivo 1
+    set slivo 1
+    set igrac 1
+    set potez potez + 1
+  ]  
+   ]
+end
+
+to glk
+  if igrac = 0 [
+  if sglk = 0 [
+    ask turtle 5[
+    set hidden? not hidden?
+    set shape "circle"
+    set xcor -1
+    set ycor 1
+    set color blue
+  ]
+    set pglk 1
+    set sglk 1
+    set igrac 1
+    set potez potez + 1
+  ]  
+  ]
+end
+
+to gdk
+  if igrac = 0 [
+  if sgdk = 0 [
+    ask turtle 6[
+    set hidden? not hidden?
+    set shape "circle"
+    set xcor 1
+    set ycor 1
+    set color blue
+  ]
+    set sgdk 1
+    set pgdk 1
+    set igrac 1
+    set potez potez + 1
+  ]
+   ]  
+end
+
+to ddk
+  if igrac = 0 [
+  if sddk = 0 [
+    ask turtle 7[
+    set hidden? not hidden?
+    set shape "circle"
+    set xcor 1
+    set ycor -1
+    set color blue
+  ]
+    set sddk 1
+    set pddk 1
+    set igrac 1
+    set potez potez + 1
+  ]
+  ]  
+end
+
+to ldk
+  if igrac = 0 [
+  if sldk = 0 [
+    ask turtle 8[
+    set hidden? not hidden?
+    set shape "circle"
+    set xcor -1
+    set ycor -1
+    set color blue
+  ]
+    set sldk 1
+    set pldk 1
+    set igrac 1
+    set potez potez + 1
+  ]
+  ]  
+end
